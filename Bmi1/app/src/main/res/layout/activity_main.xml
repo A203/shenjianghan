@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/abc">
+
+    <TextView
+        android:text="体重指数计数器"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="30sp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="身高"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="20sp"
+            />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/height"
+            android:ems="4"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:layout_marginTop="20sp"/>
+        <TextView
+            android:text="cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+           />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="体重"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginLeft="60dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:id="@+id/weight"
+            android:ems="4"
+            android:background="@drawable/shape"
+            android:gravity="center"/>
+        <TextView
+            android:text="kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginLeft="20sp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="计算BMI"
+        android:textSize="40sp"
+        android:layout_marginLeft="90sp"
+        android:id="@+id/submit"
+        android:layout_marginTop="30sp"/>
+    <TextView android:text=""
+        android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="30sp">
+    </TextView>
+    <TextView android:text=""
+        android:id="@+id/suggest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="30sp">
+    </TextView>
+
+</LinearLayout>

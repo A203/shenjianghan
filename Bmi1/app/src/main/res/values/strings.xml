@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI身高体重指数计算器</string>
+
+    <string name="action_settings">action_settings</string>
+    <string name="suggest_light2">偏瘦，要多吃点。</string>
+    <string name="suggest_average">体型很棒哦，继续保持。</string>
+    <string name="suggest_light1">很瘦，像猴子一样了。</string>
+    <string name="suggest_heavy1">偏胖，稍微注意点饮食就行了。</string>
+    <string name="suggest_heavy2">很胖，一定要多运动。</string>
+    <string name="suggest_heavy3">非常胖，你再不在饮食和生活方面改善就晚了。</string>
+    <string name="suggest_heavy4">超胖，我的天啊，喊耶稣吧。</string>
+    <string name="height">身高（cm）</string>
+    <string name="weight">体重（kg)</string>
+    <string name="bmi_btn">计算 BMI 值</string>
+    <string name="bmi_result">您的 BIM 值是：</string>
+    <string name="final_resault">final_resault</string>
+</resources>

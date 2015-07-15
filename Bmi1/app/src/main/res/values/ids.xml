@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="BMIbutton" type="id">BMIbutton</item>
+    <item name="height" type="id">height</item>
+    <item name="weight" type="id">weight</item>
+    <item name="show" type="id">show</item>
+    <item name="result" type="id" />
+    <item name="suggest" type="id" />
+    <item name="submit" type="id" />
+</resources>
